@@ -35,7 +35,7 @@ aws configure
 - Set the `search_terms` list to the desired search terms for financial documents.
 - Adjust parameters as needed, such as the `limit` for the number of images per term.
 
-#### 3. Upload to Amazon S3
+#### 3. Upload Image dataset to Amazon S3
 
 #### 4. Download Images from S3
 - Update the following in the script to match your AWS S3 settings:
