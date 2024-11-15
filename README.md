@@ -25,7 +25,7 @@ pip install requests beautifulsoup4 bing-image-downloader boto3 Pillow matplotli
 ```bash
 aws configure
 ```
-## 3.Usage Instructions
+## Usage Instructions
 
 ### 1. Run Web Scraping Code
 - Modify the `url` variable to your target webpage URL.
