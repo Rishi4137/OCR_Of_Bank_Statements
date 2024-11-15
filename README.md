@@ -14,14 +14,14 @@ An OCR project designed to extract  data from financial documents like pay slips
 
 ## Setup and Requirements
 
-### 1. Install Required Libraries
+#### 1. Install Required Libraries
 
 Install the necessary Python libraries:
 
 ```bash
 pip install requests beautifulsoup4 bing-image-downloader boto3 Pillow matplotlib
 ```
-## 2.Set up your AWS credentials
+#### 2.Set up your AWS credentials
 ```bash
 aws configure
 ```
