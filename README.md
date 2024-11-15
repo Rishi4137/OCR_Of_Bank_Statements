@@ -27,23 +27,23 @@ aws configure
 ```
 ## Usage Instructions
 
-### 1. Run Web Scraping Code
+#### 1. Run Web Scraping Code
 - Modify the `url` variable to your target webpage URL.
 - Add any keywords in the `keywords` list to match your specific requirements.
 
-### 2. Run Bing Image Downloader
+#### 2. Run Bing Image Downloader
 - Set the `search_terms` list to the desired search terms for financial documents.
 - Adjust parameters as needed, such as the `limit` for the number of images per term.
 
-### 3. Upload to Amazon S3
+#### 3. Upload to Amazon S3
+
+#### 4. Download Images from S3
 - Update the following in the script to match your AWS S3 settings:
   - `aws_access_key_id`
   - `aws_secret_access_key`
   - `region_name`
   - `bucket_name`
   - `folder_prefix`
-
-### 4. Download Images from S3
-- Run the final section of the script to retrieve images from your S3 bucket for local use.
+- Run the relevant section of the script to retrieve images from your S3 bucket for local use.
 - Process the downloaded dataset for analysis or visualization.
 
