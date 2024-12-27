@@ -1,4 +1,4 @@
-# Document OCR and Analysis App
+# OCR of Bank Statements 
 This Streamlit-based web application allows users to process and analyze various document types (Salary Slips, Checks, and Profit and Loss Statements) through Optical Character Recognition (OCR) and Large Language Model (LLM) integration.
 
 ---
