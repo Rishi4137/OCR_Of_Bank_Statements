@@ -21,13 +21,13 @@ This Streamlit-based web application allows users to process and analyze various
 #### 2.Install required dependencies:
 
 ```bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 ```
 #### 3. Obtain the following API keys and credentials:
 
  1. Cohere API Key: Sign up at Cohere to get an API key for natural language processing.
  2. AWS Access Key & Secret: Set up AWS credentials in your environment or retrieve them from AWS IAM.
-##### 3. Setting Up an S3 Bucket
+##### a. Setting Up an S3 Bucket
 
 To store documents for processing, create and organize an S3 bucket with the following steps:
 
@@ -46,13 +46,13 @@ To store documents for processing, create and organize an S3 bucket with the fol
 3. **Upload Documents**:
    - Upload the respective documents (salary slips, checks, profit and loss statements) into their corresponding folders.
 
-##### 4. Region Name:
+##### b. Region Name:
 Ensure you use the correct AWS region in `app.py` based on where your bucket is located. For example:
 ```python
 region_name = 'eu-north-1'
 ```
 
-#### 4. Create a config.json file in the project directory with the following structure:
+#### 4. Create a config.json file :
 
 Create a `config.json` file in the project directory to store your API keys and AWS credentials. The file should have the following structure:
 
@@ -82,6 +82,6 @@ The web app will be accessible at http://localhost:8501/ in your browser.
  6.**s3_extraction.py**: Handles fetching documents from AWS S3.
 
 ### Troubleshooting:
-Ensure that the AWS credentials in config.json have the necessary permissions to access the S3 bucket.
-Check the Cohere API key for proper access to the LLM services.
-Make sure PaddleOCR is correctly installed and configured to handle different types of documents.
+1. Ensure that the AWS credentials in config.json have the necessary permissions to access the S3 bucket.
+2. Check the Cohere API key for proper access to the LLM services.
+3. Make sure PaddleOCR is correctly installed and configured to handle different types of documents.
