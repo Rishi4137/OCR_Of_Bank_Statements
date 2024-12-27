@@ -25,8 +25,8 @@ This Streamlit-based web application allows users to process and analyze various
 ```
 #### 3. Obtain the following API keys and credentials:
 
-Cohere API Key: Sign up at Cohere to get an API key for natural language processing.
-AWS Access Key & Secret: Set up AWS credentials in your environment or retrieve them from AWS IAM.
+ 1. Cohere API Key: Sign up at Cohere to get an API key for natural language processing.
+ 2. AWS Access Key & Secret: Set up AWS credentials in your environment or retrieve them from AWS IAM.
 
 #### 4. Create a config.json file in the project directory with the following structure:
 
