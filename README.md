@@ -15,7 +15,7 @@ This Streamlit-based web application allows users to process and analyze various
 
 #### 1. Clone the repository:
 ```bash
-   git clone <repository-url>
+   git clone https://github.com/Rishi4137/OCR_Of_Bank_Statements.git
 ```
 #### 2.Install required dependencies:
 
