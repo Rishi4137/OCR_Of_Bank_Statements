@@ -27,6 +27,30 @@ This Streamlit-based web application allows users to process and analyze various
 
  1. Cohere API Key: Sign up at Cohere to get an API key for natural language processing.
  2. AWS Access Key & Secret: Set up AWS credentials in your environment or retrieve them from AWS IAM.
+##### 3. Setting Up an S3 Bucket
+
+To store documents for processing, create and organize an S3 bucket with the following steps:
+
+##### Step-by-Step Guide:
+
+1. **Create an S3 Bucket**:
+   - Go to AWS Console → S3 → Create Bucket.
+   - Choose a unique name (e.g., `ocr-bucket-rishi`) and a region (e.g., `eu-north-1`).
+
+2. **Create Folder Structure**:
+   - Inside the bucket, create these folders:
+     - `Datasets/salaryslip/` (for salary slip images)
+     - `Datasets/Checks/` (for check images)
+     - `Datasets/profit_and_loss_statement/` (for profit and loss statement images)
+
+3. **Upload Documents**:
+   - Upload the respective documents (salary slips, checks, profit and loss statements) into their corresponding folders.
+
+##### 4. Region Name:
+Ensure you use the correct AWS region in `app.py` based on where your bucket is located. For example:
+```python
+region_name = 'eu-north-1'
+```
 
 #### 4. Create a config.json file in the project directory with the following structure:
 
