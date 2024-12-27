@@ -16,7 +16,6 @@ This Streamlit-based web application allows users to process and analyze various
 #### 1. Clone the repository:
 ```bash
    git clone <repository-url>
-   cd <project-directory>
 ```
 #### 2.Install required dependencies:
 
