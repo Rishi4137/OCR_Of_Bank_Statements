@@ -35,7 +35,7 @@ To store documents for processing, create and organize an S3 bucket with the fol
 
 1. **Create an S3 Bucket**:
    - Go to AWS Console → S3 → Create Bucket.
-   - Choose a unique name (e.g., `ocr-bucket-rishi`) and a region (e.g., `eu-north-1`).
+   - Choose a unique name (e.g., `ocr-bucket-sample`) and a region (e.g., `eu-north-1`).
 
 2. **Create Folder Structure**:
    - Inside the bucket, create these folders:
