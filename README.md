@@ -78,8 +78,8 @@ The web app will be accessible at http://localhost:8501/ in your browser.
  2. **config.json**: Configuration file containing the API keys and AWS credentials.
  3. **visualization.py**: Contains functions for generating bar plots and pie charts for visualizing the extracted data.
  4. **display_table.py**: Displays the extracted OCR data in a table format.
- 5.**ocr_processing.py**: Contains the functions responsible for processing images using PaddleOCR and interacting with Cohere for data extraction and LLM response generation.
- 6.**s3_extraction.py**: Handles fetching documents from AWS S3.
+ 5. **ocr_processing.py**: Contains the functions responsible for processing images using PaddleOCR and interacting with Cohere for data extraction and LLM response generation.
+ 6. **s3_extraction.py**: Handles fetching documents from AWS S3.
 
 ### Troubleshooting:
 1. Ensure that the AWS credentials in config.json have the necessary permissions to access the S3 bucket.
